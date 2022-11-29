@@ -1,0 +1,138 @@
+
+    
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    
+    padding: 5px;
+    
+    background-image: url("./assets/1.png"); /* The image used */
+    background-color: #fafafa; /* Used if the image is unavailable */
+    
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 30px 50px 50px;
+    
+    min-height: 100vh;
+
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+p{
+    color:rgb(92, 92, 92);
+    padding-bottom: 20px;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+
+    background: rgba(255, 255, 255, 0.42);
+    border-radius: 5px 5px 16px 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(14.9px);
+    -webkit-backdrop-filter: blur(14.9px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    border-top: 5px solid #313457;
+    border-image: linear-gradient(90deg, #313457,#404366, #5f6388);
+    border-image-slice: 1;
+    border-image-width: 4px 0 0 0;
+    border-image-repeat: stretch;
+}
+.text-1 {
+    display: flex;
+    flex-direction: column;   
+    
+}
+
+#button1 {
+    background-color: #313457;
+    font-weight: 500;
+    min-width: 100%;
+}
+#button1:hover {
+    background-color: #404260;
+    font-weight: 500;
+    min-width: 100%;
+}
+
+a {
+    font-weight: 500;
+    color: #313457;
+}
+a:hover {
+    font-weight: 500;
+    color: #63657b;
+}
+
+.principal-image {
+    max-width: 85%;
+}
+.logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    
+
+}
+.logos-img {
+    margin-top: 80px;
+    max-width: 10% ;   
+}
+
+#itau {
+    width: 35px;
+}
+label {
+    color: #313457;
+    font-weight: 500;
+}
+/* Slider------------------------------- */
+
+/* Slider------------------------------- */
+
+
+@media (max-width: 991.98px) { 
+    main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    gap: 10%;
+
+} 
+
+
+.container {
+margin-top: 50px;
+}}
